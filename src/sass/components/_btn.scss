@@ -1,0 +1,18 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+    &--outline-primary {
+        background-color: transparent;
+        color: white;
+        border: solid 2px white;
+        border-radius: 1rem;
+        font-weight: bold;
+
+        & > img {
+            margin-right: 1rem;
+        }
+    }
+}

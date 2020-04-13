@@ -1,0 +1,12 @@
+.container {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+
+    &-fluid {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}

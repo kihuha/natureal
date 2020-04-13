@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &__brand {
+        justify-self: center;
+    }
+
+    &__title {
+        font-weight: 200;
+        font-size: 7.5rem;
+
+        @media only screen and (min-width: 800px) {
+            font-size: 10rem;
+        }
+    }
+
+    &__text {
+
+        @media only screen and (min-width: 800px) {
+            width: 45rem;
+            line-height: 2rem;
+        }
+
+        &-content {
+            width: 100%;
+            max-width: 50rem;
+            margin: 9rem auto 4rem auto;
+
+            @media only screen and (min-width: 800px) {
+                max-width: 130rem;
+                margin-bottom: 15rem;
+            }
+        }
+    }
+
+    &__abstract {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(25%, -25%);
+        z-index: -1;
+
+        @media only screen and (min-width: 800px) {
+            width: 140rem;
+        }
+    }
+}
